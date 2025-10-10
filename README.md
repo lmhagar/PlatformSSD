@@ -1,8 +1,8 @@
-# Sample Size Determination for Bayesian Platform Trials (SSTaRLeT)
+# Sample Size Determination for Bayesian Platform Trials (SSTARLET)
 
 This repository contains R code to implement the Sample Size Determination (SSD) method proposed in:
 
-> **"An Efficient Approach to Design Bayesian Platform Trials with an Application to the SSTaRLeT Trial"**\
+> **"An Efficient Approach to Design Bayesian Platform Trials"**\
 > *Luke Hagar, Lara Maleyeff et al. (2025)*
 
 The SSD method is designed for Bayesian platform trials with features such as:
@@ -52,6 +52,7 @@ This file contains a full example script that:
 library(foreach)
 library(doParallel)
 library(doSNOW)
+source("hagar_maleyeff_ssd.R")
 
 # Set up parallel processing 
 cores = detectCores()
