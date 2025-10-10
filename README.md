@@ -179,14 +179,14 @@ for (j in 5:14){
 If you use this code, please cite:
 
 **Hagar, L., Maleyeff, L., et al. (2025)**\
-*"An Efficient Approach to Design Bayesian Platform Trials with an Application to the SSTaRLeT Trial"*\
+*"An Efficient Approach to Design Bayesian Platform Trials"*\
 X*.
 
 ---
 
 ## Authors
 
-- Luke Hagar, [luke.hagar@mail.mcgill.ca](mailto:luke.hagar@mail.mcgill.ca).
+- Luke Hagar, [l.hagar@uq.edu.au](mailto:l.hagar@uq.edu.au).
 - Lara Maleyeff, [lara.maleyeff@mail.mcgill.ca](mailto:lara.maleyeff@mail.mcgill.ca).
 - Shirin Golchi
 - Dick Menzies
