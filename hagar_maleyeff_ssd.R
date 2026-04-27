@@ -3,8 +3,7 @@
 # 
 # This script contains R code to implement the Sample Size Determination (SSD)
 # method proposed in the manuscript:
-# "An Efficient Approach to Design Bayesian Platform Trials with an Application 
-#  to the SSTaRLeT Trial" by Hagar, Maleyeff et al. (2025). 
+# "Efficient Sample Size Determination for Bayesian Platform Trials" by Hagar, Maleyeff et al. (2026). 
 #
 # The code was developed by Luke Hagar and Lara Maleyeff.
 # ====================================================================
@@ -58,7 +57,7 @@ betaFMsamp = function(w, a, b, y, n, M = 1000) {
   a = c(a, 1)
   b = c(b, 1)
   as = t(x) %*% a + y
-  bs = t(x) %*% b + n - 1
+  bs = t(x) %*% b + n - y
   s = mapply(rbeta, shape1 = as, shape2 = bs, MoreArgs = list(n = 1))
   return(c(s))
 }
